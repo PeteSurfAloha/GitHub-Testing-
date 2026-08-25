@@ -1,0 +1,14 @@
+name: Hello World Yame
+ 
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch: # Ermöglicht das manuelle Starten über die GitHub-Oberfläche
+ 
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello World
+        run: echo "Hello World"
+hat Kontextmenü
