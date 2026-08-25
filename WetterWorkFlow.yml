@@ -36,4 +36,3 @@ jobs:
  
             // In die GitHub Step Summary schreiben (grafische Übersicht auf der UI)
             await core.summary.addRaw(markdownTable).write();
-hat Kontextmenü
